@@ -105,3 +105,13 @@ PowerShell 파일은 `[System.Management.Automation.Language.Parser]::ParseFile`
 - visible Windows Terminal 창 존재
 
 이 판정 로직을 약화하거나 우회하지 않는다.
+
+---
+
+## 6. Git 규칙
+
+- 커밋 메시지는 `{타입}: {영어 명령형 제목}`(72자 이내) 형식이다. 본문은 선택이며 "왜" 바꿨는지를 쓴다.
+- 타입: `feat`(기능), `fix`(버그), `refactor`(동작이 같은 구조 변경), `docs`(문서), `test`(테스트), `chore`(설정·스크립트).
+- 한 커밋에는 논리적 변경 하나만 담는다. 서로 무관한 변경은 커밋을 나눈다.
+- `git add -A` 대신 파일을 지정해 stage한다. 개인 설정 `config.json`은 커밋하지 않는다.
+- `main`에 강제 push하지 않는다. 릴리스에는 `v{major}.{minor}.{patch}` 태그를 붙인다.
