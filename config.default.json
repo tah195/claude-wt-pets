@@ -1,0 +1,12 @@
+{
+  "defaultCharacter": "happycat",
+  "slotCharacters": {},
+  "placement": {
+    "anchor": "bottom-left",
+    "offsetX": 10,
+    "offsetY": 10,
+    "slotGap": 10,
+    "direction": "right"
+  },
+  "petSize": 120
+}

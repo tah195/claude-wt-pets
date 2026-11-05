@@ -1,0 +1,5 @@
+.claude/
+.omc/
+characters/.claude/
+logs/
+/config.json
