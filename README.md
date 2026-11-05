@@ -4,8 +4,6 @@
 
 Claude Code 세션마다 펫 하나. 펫을 Ctrl+클릭하면 그 세션이 실행 중인 Windows Terminal 창이 앞으로 온다. 탭을 한 창으로 합쳤다가 다시 나눠도 각 펫은 자기 세션의 창을 다시 찾는다.
 
-> **English summary** — A Windows desktop pet that shows your Claude Code session state (thinking / done / needs attention / error …) via Claude Code hooks. Up to 4 sessions, one pet each. Ctrl+click a pet to bring its Windows Terminal window to the front. Supported only on **Windows Terminal + PowerShell + Claude Code**. Status: feature-complete, maintenance only. Docs are in Korean.
-
 **상태: 기능 완성, 유지보수 모드.** 버그 수정과 Windows Terminal·Claude Code 변경에 따른 호환성 대응만 한다. 지원 범위 밖의 기능은 추가하지 않는다 ([제한사항](#제한사항)). 개발 과정은 [연표](docs/how-it-was-solved.md#8-연표) 참고.
 
 Claude Code hook 이벤트를 받아 화면 위 데스크톱 펫으로 session 상태를 보여주는 Windows 도구다. 터미널을 Alt+Tab으로 확인하지 않아도, 펫만 보면 Claude가 작업 중인지·답변을 끝냈는지·확인이 필요한지 알 수 있다.
